@@ -6,6 +6,6 @@ public class Silent implements MobileAlertState{
 
   @Override
   public void alert(AlertStateContext ctx) {
-    System.out.println("vibration...");
+    System.out.println("silent...");
   }
 }
